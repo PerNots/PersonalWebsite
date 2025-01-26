@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://{PerNots}.github.io/{PersonalWebsite}",
+  "homepage": "http://PerNots.github.io/PersonalWebsite",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{PerNots}.github.io/{PersonalWebsite}'",
+    "build-gh": "parcel build --public-url 'https://PerNots.github.io/PersonalWebsite'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
